@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.game-wrap {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.game-wrap div {
+  position: absolute;
+}
+
+.wheel {
+  width: 35vh;
+  height: 35vh;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.2);
+  left: 30px;
+  bottom: 30px;
+  z-index: 99;
+}
+
+.wheel-child {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 12vh;
+  height: 12vh;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 100;
+}

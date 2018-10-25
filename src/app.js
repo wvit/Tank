@@ -1,3 +1,2 @@
-import {
-    util
-} from './js/util'
+import './js/createTank';
+import './js/handle'

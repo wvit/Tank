@@ -4,14 +4,16 @@
   "description": "运行在web端的坦克游戏",
   "main": "index.js",
   "dependencies": {
-    "webpack": "^4.23.0"
+    "webpack": "^4.23.0",
+    "webpack-dev-server": "^3.1.10"
   },
   "devDependencies": {
     "webpack-cli": "^3.1.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack --watch",
+    "start":"webpack-dev-server"
   },
   "repository": {
     "type": "git",
