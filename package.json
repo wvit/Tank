@@ -1,0 +1,26 @@
+{
+  "name": "tank",
+  "version": "1.0.0",
+  "description": "运行在web端的坦克游戏",
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^4.23.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.1.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wvit/Tank.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wvit/Tank/issues"
+  },
+  "homepage": "https://github.com/wvit/Tank#readme"
+}
