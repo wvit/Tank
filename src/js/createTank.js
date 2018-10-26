@@ -25,7 +25,7 @@ class createTank {
   }
 }
 
-const playerTank = new createTank(60, 30, 300, 200, 50);
+const playerTank = new createTank(60, 30, 300, 200, 0);
 
 export {
   playerTank,
