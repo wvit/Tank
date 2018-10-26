@@ -3,7 +3,8 @@ import {
 } from './dataStore'
 
 class createTank {
-  constructor(width, height, left, top, rotate) {
+  constructor(width, height, left, top, rotate, speed) {
+    this.tankSpeed = speed;
     this.tankWidth = width;
     this.tankHeight = height;
     this.tankLeft = left;
@@ -25,7 +26,7 @@ class createTank {
   }
 }
 
-const playerTank = new createTank(60, 30, 300, 200, 0);
+const playerTank = new createTank(60, 30, 300, 200, 0, 3);
 
 export {
   playerTank,
