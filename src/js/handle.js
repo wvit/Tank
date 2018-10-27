@@ -10,6 +10,7 @@ class Handle {
   constructor() {
     this.timer = null;
     this.wheel = dataStore.get('wheel');
+    this.fire = dataStore.get('fire');
     this.wheelChild = dataStore.get('wheelChild');
     this.wheelX = dataStore.get('wheelX');
     this.wheelY = dataStore.get('wheelY');
@@ -21,6 +22,9 @@ class Handle {
     });
     this.wheel.addEventListener('touchend', () => {
       this.touchEnd();
+    });
+    this.fire.addEventListener('click', () => {
+      playerTank.tankFire();
     });
   }
 
