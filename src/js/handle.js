@@ -17,7 +17,6 @@ class Handle {
       this.touchStart()
     });
     this.wheel.addEventListener('touchmove', ev => {
-
       this.touchMove(ev)
     });
     this.wheel.addEventListener('touchend', () => {
