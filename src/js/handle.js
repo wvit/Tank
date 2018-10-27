@@ -40,6 +40,7 @@ class Handle {
     this.wheelChild.style.cssText += `position:fixed;left:${this.x}px;top:${this.y}px;`;
     this.dataCount();
   }
+
   touchEnd() {
     this.wheelChild.style.cssText += `position:absolute;left:50%;top:50%;`;
     clearInterval(this.timer);

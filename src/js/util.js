@@ -20,6 +20,7 @@ class Util {
     randomNum(num) {
         return Math.floor(Math.random() * num);
     }
+
 }
 const util = new Util();
 

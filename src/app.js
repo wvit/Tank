@@ -1,2 +1,2 @@
-import './js/createTank';
 import './js/handle';
+import './js/clear';
