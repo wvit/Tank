@@ -32,6 +32,7 @@ class createTank {
     this.tank.appendChild(bullet);
     let bulletX = bullet.getBoundingClientRect().left;
     let bulletY = bullet.getBoundingClientRect().top;
+    bullet.className = `bullet`;
     this.gameWrap.appendChild(bullet);
     bullet.style.cssText = `width:6px;height:6px;background:#000;border-radius:50%;left:${bulletX}px;top:${bulletY}px;transform:translateY(-50%);`;
     setInterval(() => {
