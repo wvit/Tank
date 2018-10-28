@@ -4,6 +4,10 @@
   "description": "运行在web端的坦克游戏",
   "main": "index.js",
   "dependencies": {
+    "css-loader": "^1.0.0",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.1",
     "webpack": "^4.23.0",
     "webpack-dev-server": "^3.1.10"
   },
@@ -13,7 +17,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --watch",
-    "start": "webpack-dev-server --host 192.168.3.29 --open"
+    "webpack": "webpack",
+    "start": "webpack-dev-server --host 192.168.3.29"
   },
   "repository": {
     "type": "git",

@@ -23,7 +23,7 @@ class Handle {
     this.wheel.addEventListener('touchend', () => {
       this.touchEnd();
     });
-    this.fire.addEventListener('click', () => {
+    this.fire.addEventListener('touchstart', () => {
       playerTank.tankFire();
     });
   }

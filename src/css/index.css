@@ -1,6 +1,10 @@
 * {
   margin: 0;
   padding: 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 
 .game-wrap {
@@ -8,6 +12,7 @@
   height: 100vh;
   position: relative;
   overflow: hidden;
+
 }
 
 .game-wrap div {
