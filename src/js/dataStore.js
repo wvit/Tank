@@ -16,6 +16,7 @@ class DataStore {
 
 const dataStore = new DataStore();
 dataStore.set('gameWrap', util.query('.game-wrap'));
+dataStore.set('canvas', util.query('.canvas'));
 dataStore.set('wheel', util.query('.wheel'));
 dataStore.set('wheelChild', util.query('.wheel-child'));
 dataStore.set('fire', util.query('.fire'));

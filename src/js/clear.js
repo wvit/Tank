@@ -11,7 +11,6 @@ class Clear {
             this.bullets = dataStore.get('bullets');
             if (this.bullets.length > 0) {
                 this.clearBullet();
-                console.log(this.bullets.length)
             }
         }, 19)
     }
